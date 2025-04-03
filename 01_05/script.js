@@ -13,6 +13,11 @@ const updateBackpack = (update) => {
   console.info(update);
 };
 
+/**
+ * Backpack object  with properties and methods.
+ * @property {string} name - The name of the backpack.
+ */
+
 const backpack = {
   name: "Everyday Backpack",
   volume: 30,
